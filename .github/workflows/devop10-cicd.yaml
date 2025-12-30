@@ -31,4 +31,4 @@ jobs:
       - name: Logout from Dockerhub 
         if: always()
         run: |
-          docker logout9
+          docker logout
