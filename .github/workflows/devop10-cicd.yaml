@@ -18,7 +18,7 @@ jobs:
       - name: Show Tag value 
         run: |
           echo "Tag is : ${{ env.TAG }}"
-      - name: Login to Dockerhub 
+      - name: Login to Dockerhub
         run: |
           echo "${{ secrets.PASSWORD }}" | docker login ghcr.io -u ${{ secrets.USERNAME }} --password-stdin 
       - name: Build docker images 
