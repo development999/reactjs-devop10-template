@@ -24,7 +24,8 @@ function App() {
   const [isValidated, setIsValidated] = useState(
     localStorage.getItem("tokens") ? true : false
   )
-   
+
+
   
   const handleLoginCallBack = (value) => {
     setIsValidated(value) // get value from navbar 
