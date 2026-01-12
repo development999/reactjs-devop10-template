@@ -29,32 +29,6 @@ function App() {
     setIsValidated(value) // get value from navbar 
   }
 
-
-
-
-let example="Hello world"
-  const username = "james"
-  const password = "testing"
-  const funcl = ()=>{
-    let test="james"
-    console.log("Hello World Function")
-  }
-  const func2 = ()=>{
-    let test="james"
-    console.log("Hello World Function")
-  }
-
-
-
-
-
-
-
-
-
-
-
-
   return (
 
     // !isLoading && 
